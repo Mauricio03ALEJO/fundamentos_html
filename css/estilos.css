@@ -1,0 +1,28 @@
+ h1 {
+            color:red;
+            background: #602BA6;
+            border: 20px solid black;
+            width: 600px;
+            height: 90px;
+
+        }
+        
+        h2 {
+            color: black;
+            background: #5DAEE8;
+            font-family: fantasy;
+            font-size: 80px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid red;
+
+        }
+
+        p {
+            color: white;
+            background: #000000;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            padding: 20px;
+            text-align: justify;
+        }
