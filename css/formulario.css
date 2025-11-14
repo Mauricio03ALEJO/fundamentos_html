@@ -55,3 +55,18 @@ h2, header{
     border-bottom: 2px solid rgb(22, 92, 20);
     font-size: 35px;
 }
+
+.msg_error{
+    background: rgb(174, 171, 171);
+    border-left: 5px solid darkred;
+    padding: 10px;
+    color: red;
+    display: none;
+    font-weight: bold;
+}
+
+.error_asterisco{
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+}
