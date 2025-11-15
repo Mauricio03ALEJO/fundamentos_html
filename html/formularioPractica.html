@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/formularioPractica.css">
+    <script src="../js/formularioPractica.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <div class="wrapper">
+        <div class="card-preview">
+            <img id="card-image" src="../img/Tarjeta.png" alt="Card preview">
+        </div>
+        <section class="form-section">
+        <form id="payment-form" class="payment-form" novalidate>
+            <h2>Detalles de Pago</h2>
+            <div class="field">
+                <label for="cardName">Nombre del Titular</label>
+                <input id="cardName" name="cardName" type="text" placeholder="Ej: Mauricio Lopez" required>
+                <span class="error" id="err-name"></span>
+            </div>
+
+            <div class="field">
+                <label for="cardNumber">Número de Tarjeta</label>
+                <input id="cardNumber" name="cardNumber" type="text" inputmode="numeric" maxlength="19"
+                    placeholder="0000 0000 0000 0000" required>
+                <span class="error" id="err-number"></span>
+            </div>
+
+            <div class="row">
+                <div class="field small">
+                    <label for="expDate">Fecha de Vencimiento</label>
+                    <input id="expDate" name="expDate" type="text" placeholder="MM/YY" maxlength="5" required>
+                    <span class="error" id="err-exp"></span>
+                </div>
+                <div class="field small">
+                    <label for="cvv">Código CVV</label>
+                    <input id="cvv" name="cvv" type="text" inputmode="numeric" maxlength="4" placeholder="000" required>
+                    <span class="error" id="err-cvv"></span>
+                </div>
+            </div>
+            <div class="actions">
+                <button id="submitBtn" type="submit">Confirmar</button>
+            </div>
+            <div id="formMessage" class="form-message"></div>
+        </form>
+        </section>
+    </div>
+    <footer>Todos los derechos reservados</footer>
+
+</body>
+
+</html>
